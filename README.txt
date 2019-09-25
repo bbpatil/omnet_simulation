@@ -1,5 +1,6 @@
-Omnet adversarial anomaly detection
-Prameesha Weerasinghe, p.weerasinghe'at'student.unimelb.edu.au
+
+# Omnet adversarial anomaly detection
+### Sandamal Weerasinghe, p.weerasinghe'at'student.unimelb.edu.au
 
 The datasets were generated using Omnet++, a network simulation tool. It can be used for testing adversarial anomaly detection applications (integrity attacks).
 
@@ -28,11 +29,11 @@ test_data
 test_labels
 
 other datasets contain instances where anomalies have been distorted to resemble normal data points. The distortion severity defines the sevirity of the attack.
-dist_anomaly_training_0.3.mat
-dist_anomaly_training_0.4.mat
-dist_anomaly_training_0.5.mat
-dist_test_data.mat
-dist_test_labels.mat
+* dist_anomaly_training_0.3.mat
+* dist_anomaly_training_0.4.mat
+* dist_anomaly_training_0.5.mat
+* dist_test_data.mat
+* dist_test_labels.mat
 
 All attributes have been normalized.
 1 - carrierFrequency
@@ -43,3 +44,13 @@ All attributes have been normalized.
 ~6 - inter arrival time
 
 The last 3 features were averaged over 5 minute intervals and appended to the feature vector which resulted in 111 features.
+
+# Classification
+## classification_dataset.tar.gz contains a balanced dataset for classification.
+
+It contains 5 cross validation sets.
+Each mat file contains :
+* training data - Xtr
+* training labels - Ytr
+* test data - Xtt
+* test labels - Ytt
