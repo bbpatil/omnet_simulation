@@ -54,3 +54,6 @@ Each mat file contains :
 * training labels - Ytr
 * test data - Xtt
 * test labels - Ytt
+
+## Update - 10/02/2020
+## omnet-classification_v2.csv.tar.gz contains a balanced dataset for classification using a new simulation setup.
